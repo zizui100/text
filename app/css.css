@@ -1,0 +1,83 @@
+body,
+ul,
+ol,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+fieldset,
+table,
+td,
+img,
+div {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body {
+	background: #fff;
+	color: #333;
+	font-size: 12px;
+	margin-top: 5px;
+	font-family: "SimSun", "宋体", "Arial Narrow";
+}
+
+ul,
+ol {
+	list-style-type: none;
+}
+
+select,
+input,
+img,
+select {
+	vertical-align: middle;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link {
+	color: #009;
+}
+
+a:visited {
+	color: #800080;
+}
+
+a:hover,
+a:active,
+a:focus {
+	color: #c00;
+	text-decoration: underline;
+}
+
+#root {
+	font-size: 1.25rem;
+	font-weight: 400;
+	height: 40px;
+	line-height: 2.5rem;
+	margin: 0 auto;
+	text-align: center;
+	border-radius: 50%;
+	background: red;
+	transform: rotate(0deg);
+}
+
+.divimg {
+	padding-top: 0.625rem;
+	width: 6.25rem;
+	height: 6.25rem;
+	margin: 0 auto;
+	text-align: center;
+	background: url(images/load-3.gif);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
